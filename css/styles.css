@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --verde-uniamazonia: rgb(10, 84, 42);
+    --verde-oscuro: rgb(11, 44, 36);
+    --verde-claro: rgb(240, 243, 241);
+}
+
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Colores personalizados institucional */
+.bg-verde-uniamazonia {
+    background-color: var(--verde-uniamazonia) !important;
+}
+
+.bg-verde-oscuro {
+    background-color: var(--verde-oscuro) !important;
+}
+
+.text-verde-uniamazonia {
+    color: var(--verde-uniamazonia) !important;
+}
+
+.btn-verde-uniamazonia {
+    background-color: var(--verde-uniamazonia);
+    color: #ffffff;
+}
+
+.btn-verde-uniamazonia:hover {
+    background-color: #073a1d;
+    color: #ffffff;
+}
+
+/* Ajustes a tus clases estructurales */
+.header { 
+    background-color: rgb(248, 249, 250);
+}
+
+.nav {
+    background-color: var(--verde-uniamazonia);
+}
+
+.main {
+    background-color: transparent;
+}
+
+.Banner {
+    background: linear-gradient(135deg, var(--verde-oscuro) 0%, var(--verde-uniamazonia) 100%);
+}
+
+.Datos {
+    background-color: #ffffff;
+}
+
+.Noticias {
+    background-color: #ffffff;
+}
+
+.Detalles {
+    background-color: #ffffff;
+}
+
+/* Estilo para las pestañas de detalles */
+.Detalles .nav-tabs .nav-link {
+    color: #555;
+    font-weight: 600;
+}
+
+.Detalles .nav-tabs .nav-link.active {
+    color: var(--verde-uniamazonia);
+    border-bottom: 3px solid var(--verde-uniamazonia);
+}
+
+footer {
+    background-color: var(--verde-oscuro);
+}
+/* Enlaces dentro de Información Adicional */
+.Informacion a {
+    color: rgb(10, 84, 42);
+    transition: color 0.2s ease;
+}
+
+.Informacion a:hover {
+    color: rgb(0, 168, 89);
+    text-decoration: underline !important;
+}
